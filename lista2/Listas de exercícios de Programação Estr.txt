@@ -1,0 +1,110 @@
+Listas de exercícios de Programação Estruturada
+2º período - CC - 2022/2
+https://bit.ly/lista-programacao-estruturada-2022-2
+
+Materiais de estudo
+Livro: C completo e total (português). (Outro link).
+Apostila #1: Linguagem C descomplicada (português). 
+Apostila #2: Linguagem C (português).
+Vídeos #1: Curso de linguagem C (português) (eXcript).
+Vídeos #2: Curso de linguagem C (português) (De aluno para aluno).
+Vídeos #3: Curso de linguagem C (português) (WR Kits).
+
+
+
+
+Distribuição de pontos
+Listas 01 até 04: 2 pontos cada (08 pontos no subtotal)
+Listas 05 até 08: 3 pontos cada (12 pontos no subtotal)
+Listas 09 até 12: 5 pontos cada (20 pontos no subtotal)
+Trabalho final 01: 30 pontos (lista de exercícios)
+Trabalho final 02: 30 pontos (tema a defininr)
+Total: 100 pontos
+
+
+
+
+
+Lista 02 - Data: 08/08/2022 - Data de entrega: 15/08/2022
+01) Faça um código que receba um número inteiro (metros) e converta para polegadas. Dica: 1m = 100cm; 1 polegada = 2,54cm.
+Exemplo:
+5 metros = 196,85 polegadas.
+02) Faça um código que receba o raio de um círculo, calcule o seu perímetro e sua área e mostre ao usuário.
+Exemplo:
+Raio: 5. Perímetro: 31.4. Área: 78.5.
+03) Faça um código que receba uma temperatura em Celsius e converta para Farenheit. C = (5 * (F - 32) / 9).
+04) Faça um código que receba uma temperatura em Farenheit e converta para Celsius.
+05) Faça um código que receba dois números (n1 e n2) e um número real (d1), calcule e mostre:
+O produto do dobro do primeiro com metade do segundo;
+A soma do triplo do primeiro com o terceiro;
+O terceiro elevado ao cubo.
+
+06) Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê: 
+salário bruto.
+quanto pagou ao INSS.
+quanto pagou ao sindicato.
+o salário líquido.
+calcule os descontos e o salário líquido, conforme a tabela abaixo:
+
++ Salário Bruto : R$ ...
+- IR (11%) : R$ ...
+- INSS (8%) : R$ ...
+- Sindicato ( 5%) : R$ ...
+= Salário Liquido : R$ ...
+
+
+Obs.: Salário Bruto – Descontos = Salário Líquido
+07) Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe a quantidades de latas de tinta a serem compradas e o preço total.
+08) Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos).
+09) Fazer um programa que receba um número inteiro, e verifique se ele está entre 100 e 200. Se estiver dentro desta faixa, imprima “Você digitou um número entre 100 e 200”, senão imprima “Você digitou um número fora da faixa”.
+10) Fazer um programa que receba três stats do jogador: vida, ataque e defesa. A experiência do jogador (XP) é a média entre os três stats. Imprima o nível do jogador conforme a seguir (0 a 25 XP) novato, (26 a 50 XP) mago, (51 a 75 XP) mago supremo, (76 a 100 XP)  lorde das magias.
+11) Faça um programa que imprima o nome de duas equipes e receba a quantidade de vitórias, empates e derrotas de cada equipe. Cada vitória valem 3 pontos, cada empate vale 1 ponto, derrota não vale ponto. Imprimir o nome de cada equipe (a sua escolha), o número de vitórias, empates e derrotas, e a pontuação total.
+12) Faça um programa que receba a quantidade de vitórias, recebe a quantidade de derrotas, recebe a quantidade de empates. Exibe na tela o nome da equipe (a sua escolha), a quantidade de vitórias, derrotas e empates, e os respectivos percentuais. Ex.: 8 vitórias - 53%, 5 derrotas - 33%, 2 empates - 13%.
+13) Faça um jogo no qual o jogador tem que escolher uma dentre quatro classes diferentes:
+Guerreiro
+Mago
+Druida
+Sacerdote
+Depois o jogador tem que escolher um dentre quatro territórios/regiões diferentes:
+Azeroth
+Azkaban
+Aurora
+Brightwood
+Depois o jogador tem que escolher um dentre quatro armas diferentes:
+Machado cego
+Picareta invertida
+Adaga sem ponta
+Corrente sem elo
+No fim o jogo deve exibir uma mensagem única com todas as escolhas que o jogador fez. Exemplo:
+Você agora é um Mago da região de Aurora armado com um Machado cego.
+
+Lista 01 - Data: 01/08/2022 - Data de entrega: 08/08/2021
+01) Faça um código que exiba seu nome completo na tela
+02) Altere o código do exercício 01 para exibir um nome (ou sobrenome) em cada linha.
+03) Faça um código que receba um número inteiro do usuário e exiba na tela:
+O número digitado
+O seu dobro
+O seu triplo
+04) Faça um código que receba dois números inteiros do usuário (n1 e n2), e exiba na tela: 
+N1 + N2 = resultado
+N1 - N2 = resultado
+N1 * N2 = resultado
+Exemplo: O usuário digitou 7 e 5. Exibe na tela:
+7 + 5 = 12
+7 - 5 = 2
+7 * 5 = 35
+05) Faça um código que receba um número inteiro (metros) e converta para centímetros.
+Exemplo:
+5 metros = 500 centímetros
+
+06) Faça um programa em C que exiba na tela a frase “Hello World!” em uma linha, e em outra linha exiba seu nome completo.
+07) Faça um programa em C que exiba na tela as informações a seguir, uma informação em cada linha.
+Seu nome completo;
+A cidade onde você nasceu;
+Sua idade;
+A data do dia que você fez esse programa.
+
+08) Faça um programa que receba um número inteiro do usuário. Imprima na tela o número recebido, dois números abaixo e dois números acima deste número. Exemplo:
+N: 5.
+Imprime: 3, 4, 5, 6, 7;
+
