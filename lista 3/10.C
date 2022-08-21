@@ -7,17 +7,19 @@ int main(){
    resto = 0;
    j=0;
    for(i=0; i<101; i++){
-    if(numero = i % 2){
+    numero = i % 2;
+    if(numero==0){
         resto = i+resto;
 
     }
     
     else if(i<100){
-    printf("%d+",i);
+    printf("%d+",i-1);
     }
+    
     else{
         printf("100\n");
     }
     }
-     printf("A soma total e: %d \n",resto);
+     printf("\nA soma total e: %d \n",resto);
 }
