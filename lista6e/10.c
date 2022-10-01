@@ -20,7 +20,7 @@ int main(){
         n = min + rand()%(max - min);
         vetor[i] = n;
         printf("%d ",vetor[i]);
-        p = (char)n;
+        p = n+'60';
        
 }
 
