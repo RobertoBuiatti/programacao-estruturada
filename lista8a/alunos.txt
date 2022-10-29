@@ -1,0 +1,4 @@
+-1 -> negativo e impar
+-2 -> negativo e par
+2 -> positivo e par
+3 -> positivo e impar
