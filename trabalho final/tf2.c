@@ -26,6 +26,7 @@ int main(int argc, char **argv){
     char buffer2[250];
     
     if (origem == NULL){
+        printf("Erro ao abrir o arquivo\n");
         return 0;
     }
     printf ("escolha um numero para cada tipo de tratamento de imagem:\n");
@@ -275,6 +276,7 @@ switch (num) {
         break;
 
     default:;
+        printf("Opcao invalida");
         break;
 
 }
