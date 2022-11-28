@@ -143,8 +143,8 @@ switch (num) {
         fprintf(rotacionar_direita, "# Criado por Roberto\n");
         fprintf(rotacionar_direita, "%d %d\n",lin,col);
         fprintf(rotacionar_direita, "%d\n",vmax);
-        for(j=0;j<lin;j++){
-            for(i=col;i>0;i--){
+        for(j=0;j<col;j++){
+            for(i=lin;i>0;i--){
                 fprintf(rotacionar_direita, "%d ", matriz[i][j][0]);
                 fprintf(rotacionar_direita, "%d ", matriz[i][j][1]);
                 fprintf(rotacionar_direita, "%d ", matriz[i][j][2]);
@@ -188,6 +188,8 @@ switch (num) {
         int lin2 = lin/4;
         int lin3 = 3*lin2;
         int col3 = 3*col2;
+        int col4 = col;
+        int lin4 = lin, count,soma;
 
         
         FILE *pretoebranco_meio = fopen("pretobranco_meio.ppm", "w");
@@ -210,6 +212,26 @@ switch (num) {
         }
 
         fclose(pretoebranco_meio);
+
+        FILE *pretoebranco_meio2 = fopen("pretobranco_diagonal.ppm", "w");
+        fprintf(pretoebranco_meio2, "P3\n");
+        fprintf(pretoebranco_meio2, "# Criado por Roberto\n");
+        fprintf(pretoebranco_meio2, "%d %d\n",col,lin);
+        fprintf(pretoebranco_meio2, "%d\n",vmax);
+        for(i=0;i<lin;i++){
+            for(j=0;j<col;j++){
+                for(k=0;k<3;k++){
+                    if(j <= i){
+                        media = (matriz[i][j][0]+matriz[i][j][1]+matriz[i][j][2])/3;
+                        fprintf(pretoebranco_meio2, "%d ", media);
+                    }
+                    else{
+                        fprintf(pretoebranco_meio2, "%d ", matriz[i][j][k]);
+                    }
+                }
+            }
+        }
+        fclose(pretoebranco_meio2);
 
         break;
     case 5:;
